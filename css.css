@@ -1,0 +1,127 @@
+/**calendar样式*/
+
+/* 总面板 */
+.container{
+	background:#eee;
+	text-align:center;
+}
+
+/* 顶部布局 */
+.top{
+	background:#1ABC9C;
+	margin:auto;
+	width:100%;
+	height:240px;
+	text-align:center;
+}
+
+/* 箭头 */
+.top .arrow{
+	float:left;
+	height:240px;
+	width:10%;
+	font-size:15px;
+	color:white;
+	text-align:center;
+	line-height:240px;
+	font-weight:bolder;
+	cursor:pointer;
+}
+
+.top .arrow:hover{
+	background:rgba(50, 188, 156, 1);
+	color:#222;
+}
+
+/* 年月 */
+.top_center{
+	text-align:center;
+	width:80%;
+	float:left;
+	color:white;
+}
+/* 月 */
+.top_center .month{
+	margin:auto;
+	font-size:40px;
+	margin-top:75px;
+	font-weight:normal;
+	letter-spacing:6px;
+}
+/* 年 */
+.top_center .year{
+	margin:auto;
+	font-size:30px;
+	font-weight:light;
+	letter-spacing:4px;
+	font-family:"微软雅黑";
+	/* margin-top:-25px; */
+}
+
+/* 中央布局 */
+.center{
+	background:#ddd;
+	width:100%;
+}
+
+/* 用于中央布局和底部布局 */
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	background:#eee;
+	width:100%;
+	float:left;
+	height:80px;
+}
+
+.center ul li{
+	display:inline-block;
+	float:left;
+	width:14.28%;
+	background:#ddd;
+	font-size:15px;
+	font-family:微软雅黑;
+	color:#222;
+	font-weight:bold;
+	height:80px;
+	line-height:80px;
+}
+
+/* 底部布局 */
+.bottom{
+	float:left;
+	background:#eee;
+	width:100%;
+}
+
+/* 用于中央布局和底部布局 */
+.bottom .ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	background:#eee;
+	width:100%;
+	float:left;
+	height:60px;
+	background:#eee;
+}
+
+.bottom ul li{
+	display:inline-block;
+	float:left;
+	width:14.28%;
+	height:50px;
+	line-height:50px;
+	background:#eee;
+	font-size:15px;
+	font-family:微软雅黑;
+	color:#222;
+	font-weight:bold;
+}
+.bottom ul li:hover{
+	background:#bbb;
+	border-radius:2px;
+}
+
+

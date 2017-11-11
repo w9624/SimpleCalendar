@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calendar</title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+<body onload="currentTime()">
+	<!-- 总面板 -->
+    <div class="container">
+	
+		<!-- 顶部布局，显示年月 -->
+		<div class="top">
+			<!-- 上一页 -->
+			<div class="arrow" id="last"><</div>
+			<!-- 年，月 -->
+			<div class="top_center">
+				<div class="month" id="month">NOVEMBER<br /><br /></div>
+				<div class="year" id="year">2017</div>
+			</div>
+			<!-- 上一页 -->
+			<div class="arrow" id="next">></div>
+		</div>
+		
+		<!-- 中央布局，显示星期 -->
+		<div class="center" id="center">
+			<ul>
+				<li>Sun</li>
+				<li>Mon</li>
+				<li>Tue</li>
+				<li>Wed</li>
+				<li>Thu</li>
+				<li>Fri</li>
+				<li>Sat<li>
+			</ul>
+		</div>
+		
+		<!-- 底部布局，显示日期 -->
+		<div class="bottom">
+			<ul id="daysPane">
+				
+			</ul>
+		</div>
+    </div>
+</body>
+	<script src="js.js"></script>
+</html>
